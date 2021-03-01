@@ -15,7 +15,7 @@ composer require devlop/laravel-console-input-validation
 
 # Usage
 
-```
+```php
 use Devlop\Laravel\Console\ValidateInput;
 use InvalidArgumentException;
 use Symfony\Component\Console\Input\InputInterface;
