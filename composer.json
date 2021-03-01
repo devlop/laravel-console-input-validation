@@ -1,0 +1,38 @@
+{
+    "name": "devlop/laravel-console-input-validation",
+    "description": "Trait to simplify the validation of console input in Laravel commands",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johan Rosenson",
+            "email": "johan@devlop.se"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/console": "^8.0",
+        "psr/log": "^1.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devlop\\Laravel\\Console\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Devlop\\Laravel\\Console\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
