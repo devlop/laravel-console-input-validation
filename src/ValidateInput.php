@@ -15,10 +15,7 @@ trait ValidateInput
      *
      * @throws InvalidArgumentException
      */
-    protected function validate(InputInterface $input) : void
-    {
-        //
-    }
+    abstract protected function validate(InputInterface $input) : void;
 
     /**
      * Execute the console command.
