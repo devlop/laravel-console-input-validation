@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://packagist.org/packages/devlop/laravel-console-input-validation"><img src="https://img.shields.io/packagist/v/devlop/laravel-console-input-validation" alt="Latest Stable Version"></a>
-    <a href="https://github.com/devlop-ab/laravel-console-input-validation/blob/master/LICENSE.md"><img src="https://img.shields.io/packagist/l/devlop/laravel-console-input-validation" alt="License"></a>
+    <a href="https://github.com/devlop/laravel-console-input-validation/blob/master/LICENSE.md"><img src="https://img.shields.io/packagist/l/devlop/laravel-console-input-validation" alt="License"></a>
 </p>
 
 # Laravel Console Input Validation
